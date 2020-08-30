@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeFinder.AzureFunctions", "YouTubeFinder.AzureFunctions\YouTubeFinder.AzureFunctions.csproj", "{DF1C8C5C-9ECE-426D-A192-CA95162743C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTubeFinder.AzureLibrary", "YouTubeFinder.AzureLibrary\YouTubeFinder.AzureLibrary.csproj", "{C6B54ADB-DC7F-4743-A761-4AFC8AFE2280}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouTubeFinder.AzureLibrary", "YouTubeFinder.AzureLibrary\YouTubeFinder.AzureLibrary.csproj", "{C6B54ADB-DC7F-4743-A761-4AFC8AFE2280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB19C473-ECCE-44CD-A192-6D3D1B47F6A6}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
