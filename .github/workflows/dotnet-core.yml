@@ -24,6 +24,4 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal
     - name: Download a Build Artifact
-      uses: ./
-      with:
-        name: Test
+      uses: actions/download-artifact@v2.0.6
