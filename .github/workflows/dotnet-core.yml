@@ -25,3 +25,5 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
     - name: Download a Build Artifact
       uses: actions/download-artifact@v2.0.6
+      with:
+        path: /home/runner/work/YouTubeFinder/YouTubeFinder/YouTubeFinder.AzureLibrary/bin/Release/netcoreapp3.1/  
