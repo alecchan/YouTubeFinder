@@ -27,4 +27,4 @@ jobs:
       uses: actions/download-artifact@v2.0.6
       with:
         name: Test
-        path: home/runner/work/YouTubeFinder/YouTubeFinder/YouTubeFinder.AzureLibrary/bin/Release/*
+        path: /**/*
